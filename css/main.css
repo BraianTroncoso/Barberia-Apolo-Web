@@ -5,9 +5,14 @@ body{
     overflow-x: hidden;
 }
 /*================================MENU=======================*/
-.icons{
+
+.icons-whatsapp{
     color: greenyellow;
 }
+.icons-instagram{
+    color:#C13584;
+}
+
 
 .colorP{
     color:#edb06d !important;
@@ -65,11 +70,16 @@ IMAGENES=======================*/
 
 
 
-/*================================SECCION NUESTRO EQUIPO
+/*================================Sobre Nosotros
 IMAGEN=======================*/
+.colorSpanNosotros{
+    color:#edb06d;
+}
 
-
-
+.icons-stars{
+    color:#edb06d;
+    
+}
 /*================================SECCION NUESTRO EQUIPO
 IMAGEN=======================*/
 
@@ -103,3 +113,4 @@ EXTRA -SM=======================*/
         justify-content: center !important;
     }
 }
+
