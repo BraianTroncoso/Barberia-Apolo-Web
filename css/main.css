@@ -70,7 +70,7 @@ IMAGENES=======================*/
 
 
 
-/*================================Sobre Nosotros
+/*================================SOBRE NOSOTROS
 IMAGEN=======================*/
 .colorSpanNosotros{
     color:#edb06d;
@@ -80,29 +80,43 @@ IMAGEN=======================*/
     color:#edb06d;
     
 }
-/*================================SECCION NUESTRO EQUIPO
+/*================================SECCION NOSOTROS MAPA
 IMAGEN=======================*/
 
+.mapa{
+    background:url(/img/Ubicacion.png);
+    width: 50%;
+    height: 500px;
+    /* margin: auto;
+    margin-top: 10px; */
+}
+#local{
+    background: #f3f3f3;
+    padding-bottom: 300px;
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    width: 50%;
+    margin-left: 100px;
+    padding-top: 150px;
+}
+/*================================Footer=======================*/
+footer{
+    background-color: #060606;
+    min-height: 100px;
 
-/*================================SECCION NUESTRO EQUIPO
-IMAGEN=======================*/
-
-
-
-/*================================MEDIA QUERIES PANTALLA 
-SM=======================*/
-
-
-@media (max-width:768px){
-    #intro{
-        width: 90% !important;
-    }
-    .servicio-fila{
-        width: 100% !important;
-        text-align: center;
-    }
 }
 
+footer p{
+    color: #f3f3f3;
+    text-align: center;
+}
+
+#iconos i{
+    font-size: 26px;
+    padding: 0 8px;
+}
 
 /*================================MEDIA QUERIES PANTALLA 
 EXTRA -SM=======================*/
@@ -114,3 +128,47 @@ EXTRA -SM=======================*/
     }
 }
 
+
+
+
+/*================================MEDIA QUERIES PANTALLA 
+SM=======================*/
+
+
+@media (max-width:768px){
+    #intro, #equipo{
+        width: 90% !important;
+        
+    }
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+    /* .mapa{
+        width: 100%;
+        height: 400px;
+        margin: auto;
+        margin-top: 10px;
+    } */
+    
+    /* #equipo{
+        display: none;
+    } */
+}
+
+
+
+/*================================MEDIA QUERIES PANTALLA 
+SM=======================*/
+
+@media (max-width:1200px) {
+    #local {
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+    .wrapper{
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+}
